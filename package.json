@@ -1,11 +1,11 @@
 {
   "name": "themekit.config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly create config.yml for Shopify/themekit",
   "main": "src/index.js",
-  "bin": "src/index.js",
+  "bin": "dist/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [
     "themekit",
@@ -20,5 +20,11 @@
     "url": "https://github.com/keidarcy/themekit.config"
   },
   "bugs": "https://github.com/keidarcy/themekit.config/issues",
-  "homepage": "https://github.com/keidarcy/themekit.config#readme"
+  "homepage": "https://github.com/keidarcy/themekit.config#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1"
+  }
 }

@@ -1,0 +1,7 @@
+# General
+.DS_Store
+._*
+
+# ThemeKit
+config/settings_data.json
+config.yml
