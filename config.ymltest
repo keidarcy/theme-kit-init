@@ -1,8 +1,0 @@
-development:
-  store: cool-shop
-  password: undefined
-  theme_id: "45216989xxxx"
-  ignore_files:
-    - config/settings_data.json
-    
-    
