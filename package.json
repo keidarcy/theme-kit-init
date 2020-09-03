@@ -1,6 +1,6 @@
 {
-  "name": "themekit.config",
-  "version": "1.0.1",
+  "name": "theme-kit-init",
+  "version": "1.0.0",
   "description": "Quickly create config.yml for Shopify/themekit",
   "main": "src/index.js",
   "bin": "dist/index.js",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keidarcy/themekit.config"
+    "url": "https://github.com/keidarcy/theme-kit-init"
   },
-  "bugs": "https://github.com/keidarcy/themekit.config/issues",
-  "homepage": "https://github.com/keidarcy/themekit.config#readme",
+  "bugs": "https://github.com/keidarcy/theme-kit-init/issues",
+  "homepage": "https://github.com/keidarcy/theme-kit-init#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
   },
