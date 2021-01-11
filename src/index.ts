@@ -22,7 +22,7 @@ const generateFile = async (name: string, content: string): Promise<void> => {
   if (/gitignore/.test(name)) {
     content = await promises.readFile(resolve(__dirname + '/config/' + name), 'utf-8');
   } else if (/config.yml/.test(name)) {
-    const { env, store, themeId, passowrd, ignore } = await inquirer.prompt([
+    const { env, store, themeId, password, ignore } = await inquirer.prompt([
       {
         type: 'list',
         message: 'Environment',
@@ -58,8 +58,8 @@ const generateFile = async (name: string, content: string): Promise<void> => {
       : '';
 
     content = `${env}:
-  store: ${store}
-  password: ${passowrd}
+  store: ${store}.myshopify.com
+  password: ${password}
   theme_id: "${themeId}"${ignorePart}
     `;
   }

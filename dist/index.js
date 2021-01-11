@@ -34,7 +34,7 @@ const generateFile = (name, content) => __awaiter(void 0, void 0, void 0, functi
         content = yield fs_1.promises.readFile(path_1.resolve(__dirname + '/config/' + name), 'utf-8');
     }
     else if (/config.yml/.test(name)) {
-        const { env, store, themeId, passowrd, ignore } = yield inquirer_1.default.prompt([
+        const { env, store, themeId, password, ignore } = yield inquirer_1.default.prompt([
             {
                 type: 'list',
                 message: 'Environment',
@@ -69,8 +69,8 @@ const generateFile = (name, content) => __awaiter(void 0, void 0, void 0, functi
     `
             : '';
         content = `${env}:
-  store: ${store}
-  password: ${passowrd}
+  store: ${store}.myshopify.com
+  password: ${password}
   theme_id: "${themeId}"${ignorePart}
     `;
     }

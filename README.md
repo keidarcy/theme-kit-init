@@ -7,9 +7,9 @@ npx theme-kit-init
 ```yml
 # config.yml
 development:
-  store: cool-shop
-  password: undefined
-  theme_id: '45216989xxxx'
+  store: aaaabbbb.myshopify.com
+  password: aaaabbbbcccc
+  theme_id: '11112222'
   ignore_files:
     - config/settings_data.json
 ```
