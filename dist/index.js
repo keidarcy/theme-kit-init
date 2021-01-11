@@ -69,7 +69,7 @@ const generateFile = (name, content) => __awaiter(void 0, void 0, void 0, functi
     `
             : '';
         content = `${env}:
-  store: ${store}.myshopify.com
+  store: https://${store}.myshopify.com
   password: ${password}
   theme_id: "${themeId}"${ignorePart}
     `;

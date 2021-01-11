@@ -1,6 +1,7 @@
 # General
 .DS_Store
 ._*
+config.yml
 
 # Node
 node_modules

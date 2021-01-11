@@ -58,7 +58,7 @@ const generateFile = async (name: string, content: string): Promise<void> => {
       : '';
 
     content = `${env}:
-  store: ${store}.myshopify.com
+  store: https://${store}.myshopify.com
   password: ${password}
   theme_id: "${themeId}"${ignorePart}
     `;
