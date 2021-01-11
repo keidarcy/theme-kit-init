@@ -1,6 +1,6 @@
 {
   "name": "theme-kit-init",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quickly create config.yml for Shopify/themekit",
   "main": "src/index.js",
   "bin": "dist/index.js",
